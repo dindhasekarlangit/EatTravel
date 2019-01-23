@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eat">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/list1"
+                android:layout_width="220dp"
+                android:layout_height="115dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/image1" />
+
+            <TextView
+                android:layout_width="74dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="100dp"
+                android:text="KFC"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="40dp"
+                android:text="Jl. Magelang KM 5-6, Sinduadi, Mlati, Yogyakarta" />
+
+            <Button
+                android:id="@+id/list2"
+                android:layout_width="220dp"
+                android:layout_height="105dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/image2" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90dp"
+                android:text="McDonald"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="194dp"
+                android:layout_height="57dp"
+                android:layout_marginStart="40dp"
+                android:text="Jl. Jendral Sudirman No. 38, Gondokusuman, Yogyakarta" />
+
+            <Button
+                android:id="@+id/list3"
+                android:layout_width="220dp"
+                android:layout_height="106dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/pizza2" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90dp"
+                android:text="PizzaHuT"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="181dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="40dp"
+                android:text="Jl. Iromajan, Gondokusuman, Yogyakarta" />
+
+            <Button
+                android:id="@+id/list4"
+                android:layout_width="220dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/donat" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:text="Dunkin Donuts"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="186dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="40dp"
+                android:text="Jl. Kaliurang Km 5,5, Depok, Yogyakarta" />
+
+            <Button
+                android:id="@+id/list5"
+                android:layout_width="220dp"
+                android:layout_height="111dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rajapedas" />
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:text="Resto Raja Pedas"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="40dp"
+                android:text="Jl. Gejayan No. 26 A, Depok, Yogyakarta" />
+
+            <Button
+            android:id="@+id/list6"
+            android:layout_width="220dp"
+            android:layout_height="101dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ricis" />
+
+            <TextView
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:text="Richeese Factory"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="195dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="40dp"
+                android:text="Jl. Sudirman No. 46, Gondokusuman, Yogyakarta" />
+
+
+            <Button
+                android:id="@+id/list7"
+                android:layout_width="220dp"
+                android:layout_height="101dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/silol" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:text="Silol Coffe and Eatery"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="195dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="40dp"
+                android:text="Jl. Sudirman No. 46, Gondokusuman, Yogyakarta" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

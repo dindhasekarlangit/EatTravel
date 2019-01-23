@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/eat">
+
+    <ScrollView
+        android:layout_width="297dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/list1"
+                android:layout_width="220dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bakpia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:text="Bakpia Pathok 25"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="Jl. Adi Sucipto KM. 9,Depok ,Yogyakarta" />
+
+
+            <Button
+                android:id="@+id/list2"
+                android:layout_width="220dp"
+                android:layout_height="101dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/kurnia" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:text="Bakpia Kurniasari"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="40dp"
+                android:text="Jl. Ring Road Utara No.6, Mlati, Yogyakarta" />
+
+            <Button
+                android:id="@+id/list3"
+                android:layout_width="220dp"
+                android:layout_height="115dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/yudjum" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:text="Gudeg Yu Djum"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="40dp"
+                android:text="Jl. Kaliurang KM 5, Gg. Srikaton No. 2, Depok, Yogyakarta" />
+
+            <Button
+                android:id="@+id/list4"
+                android:layout_width="220dp"
+                android:layout_height="97dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/pawon" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:text="Rumah Makan Gudeg Pawon"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="40dp"
+                android:text="Jl. Jl. Janturan No.35, Umbulharjo, Yogyakarta, Yogyakarta" />
+
+            <Button
+                android:id="@+id/list5"
+                android:layout_width="220dp"
+                android:layout_height="97dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/pecel" />
+
+            <TextView
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="Makanan Khas Lamongan"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="40dp"
+                android:text="Jl. Walesdadi Sulipto, Gg. Ambarrejo No. 228, Depok, Yogyakarta" />
+
+            <Button
+                android:id="@+id/list6"
+                android:layout_width="220dp"
+                android:layout_height="97dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/klatak" />
+
+            <TextView
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="Sate Klatak Pak Pong"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="40dp"
+                android:text="Jl. Sultan Agung No.18, Jejeran II, Wonokromo, Pleret, Bantul,  Yogyakarta" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
